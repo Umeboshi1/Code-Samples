@@ -8,7 +8,7 @@ CS470 Intro to AI,
 Python Ray Tracer
 
 Work:
-Unity C# Scripts
+Unity C# Scripts/NumberNinjitsu
 
 Personal Project:
-Video Game Project
+Unity C# Scripts/PersonalGameProject
