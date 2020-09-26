@@ -208,7 +208,8 @@ def sorting_func(e):
     return len(e[2].get_domain())
 
 
-def recursion(not_fixed, index, cpy_puzzle):
+#checks possible combinations and returns a 2D array of ints once a possible solution is found
+def recursiveCheck(not_fixed, index, cpy_puzzle):
     for x in range(len(not_fixed[index][2].get_domain())): # go through each number in the domain
         i = not_fixed[index][0]
         j = not_fixed[index][1]
